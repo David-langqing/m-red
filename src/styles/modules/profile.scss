@@ -1,0 +1,39 @@
+#profile-main>a {
+    @include flexbox();
+    flex-direction: column;
+      >li{
+          width:3.56rem;
+        //   height:1.52rem;
+        //   background:red;
+          margin-top: .1rem;
+          @include flexbox();
+          flex-wrap: wrap;
+          display: block;
+          float: left;
+          align-content: flex-start;
+          >img{
+              width:.89rem;
+              height:.89rem;
+              display:block;
+              float: left;
+          }
+          >h3{
+              width:2.54rem;
+              height:.28rem;
+              display: block;
+              color:#1a1a1a;
+              float: left;
+              font-size: .2rem;
+              margin-top: .3rem;
+          }
+          >b{
+            width:.89rem;
+            height:.28rem;
+            display:block;
+            float: left;
+            font-size: .12rem;
+            color:#999;
+            margin-top: .1rem;
+          }
+      }
+  }

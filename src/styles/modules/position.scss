@@ -1,0 +1,363 @@
+.home-container {
+  main {
+    width: 100%;
+    background: #fff;
+    overflow: hidden;
+    // overflow-y: auto;
+    > div{
+      #main-Top{
+        width:100%;
+        @include flexbox();
+        flex-direction: column;
+        @include justify-content(space-between);
+        @include align-items(center);
+        padding: .1rem 0 .04rem;
+        .head{
+            width: 2.68rem;
+            height: .4rem;
+            margin: 0 auto;
+            @include flexbox();
+            @include justify-content(space-between);
+            .logo{
+                width:1.4rem;
+                height:0.4rem;
+                @include flexbox();
+                @include align-items(center);
+                @include justify-content(center);
+                img{
+                    width: 100%;
+                    height:100%;
+                }
+            }
+            .tip-box{
+                margin-left: .05rem;
+                @include flexbox();
+                @include justify-content(space-between);
+                flex-direction: column;
+                strong{
+                    margin-top: 0.05rem;
+                    color: #991010;
+                    font-size: .15rem;
+                    display: block;
+                }
+                span{
+                    line-height:.12rem;
+                    color: #999;
+                    font-size: .1rem;
+                    display: block;
+                }
+            }
+        }
+        .search{
+            width:100%;
+            height: .36rem;
+            margin: 0 auto;
+            padding: 0 .1rem;
+            margin: .12rem 0;
+            @include flexbox();
+            @include justify-content(space-between);
+            .search-box1{
+                @include flex();
+                border: 1px solid #ddd;
+                border-radius: .02rem;
+                // background: #c33;
+                @include flexbox();
+                @include align-items(center);
+                @include justify-content(space-between);
+                .s-left{
+                    width: .6rem;
+                    height: 100%;
+                    background:#f7f7f7;
+                    @include flexbox();
+                    @include align-items(center);
+                    @include justify-content(center);
+                    cursor: pointer;
+                    span{
+                        background-size: .18rem!important;
+                        padding-left: .18rem;
+                        font-size: .14rem;
+                        color: #bbb;
+                        background: url('../../images/fenlei.png') no-repeat left center;
+                    }
+                }
+                .s-right{
+                    height: 100%;
+                    background: #fff;
+                    @include flexbox();
+                    @include flex();
+                    @include align-items(center);
+                    @include justify-content(space-between);
+                    .s-middle{
+                        padding-left: .06rem;
+                        border: none;
+                    }
+                    .gosearch{
+                        @include flexbox();
+                        width:.39rem;
+                        height:.24rem;
+                        border-left: 1px solid #ededed;
+                        background:url('../../images/search.png') no-repeat center;
+                        background-size: .15rem .14rem;
+                    }
+                }
+                
+            }
+            .send{
+                width: .54rem;
+                height: .36rem;
+                @include flexbox();
+                @include justify-content(center);
+                @include align-items(center);
+                background: #41c42d;
+                border: 1px solid #ddd;                       
+                border-radius: .02rem;                       
+                color: #fff;
+                margin-left: .05rem;
+            }
+        }
+
+    }
+    // #main-top {
+    //     @include flexbox();
+    //     @include align-items(center);
+    //     @include justify-content(center);
+    //     height: .5rem;
+    //     // background:red;
+        
+    //     > img{
+    //       width: 1.4rem;
+    //       height:.4rem;
+    //     }
+    //     >div{
+    //       @include flexbox();
+    //       flex-direction: column;
+   
+    //     > p{
+    //       width: 1.3rem;
+    //       height:.22rem;
+    //       font-size:.16rem;
+    //     }
+    //     > span{
+    //       width: 1.3rem;
+    //       height:.12rem;
+    //       font-size:.12rem;
+    //     }
+    //     }
+        
+    //  }
+
+
+    //  >#main-nav{
+    //    height:.6rem;
+
+    //    @include flexbox();
+    //    flex-direction:row;
+    //    >div{
+    //      width:.6rem;
+    //      height:.34rem;
+    //      line-height: .34rem;
+    //      text-align: center;
+    //      margin-top: .07rem;
+    //    }
+    //    >input{
+    //     width:1.87rem;
+    //     height:.34rem;
+    //     line-height: .34rem;
+    //     text-align: center;
+    //     margin-top: .07rem;
+    //   }
+    //   >i{
+    //     width:.47rem;
+    //     height:.34rem;
+    //     line-height: .34rem;
+    //     text-align: center;
+    //     margin-top: .07rem;
+    //   }
+    //   >span{
+    //     width:.54rem;
+    //     height:.34rem;
+    //     line-height: .34rem;
+    //     text-align: center;
+    //     background: #41c42d;
+    //     color:#fff;
+    //     margin-top: .07rem;
+    //   }
+    //  }
+     >#main-ul{
+       height:2.7rem;
+       @include flexbox();
+       flex-direction: column;
+       >#ul-top{
+         height:.36rem;
+         @include flexbox();
+         flex-direction: row;
+        
+        > li{
+        height  :.36rem;
+         width :1.25rem;
+        line-height: .36rem;
+        text-align: center;
+            &.active {
+          color: #00b38a;
+          background: #e7f3f0;
+        }
+        >a{
+          height  :100%;
+         width :100%;
+         display: block;
+         margin-top: -.36rem;
+        }
+        }
+      
+       }
+       >#ul-botton{
+         height:2.2rem;
+        //  background:yellow;
+         @include flexbox();
+         flex-wrap: wrap;
+         align-content: flex-start;
+         >div{
+            padding-left: .1rem;
+            padding-right: .1rem;
+            margin-top: .1rem;
+            margin-bottom: .1rem;
+            height: .34rem;
+            line-height: .34rem;
+            background: #fff;
+            color: #000;
+         }
+       }
+     
+     } 
+      >#main-content{
+        .swiper-slide{height:10px} 
+        .swiper-slide-active { height:auto}
+        #slide1{
+          @include flexbox();
+          flex-wrap: wrap;
+          align-content: flex-start;
+          margin-left: .1rem;
+          span{
+            width:1.21rem;
+            height:1.65rem;
+            @include flexbox();
+            flex-direction: column;
+            >img{
+              width:1.01rem;
+              height:1rem;
+            }
+            >p{
+              width:1.01rem;
+              height:.3rem;
+              line-height: .3rem;
+              text-align: center;
+            }
+            .head>img,
+            .foot>img {
+              width: .16rem;
+              height: .16rem;
+              transition: transform 150ms;
+              -webkit-transition: transform 150ms;
+            }
+            .head>img {
+              @include transform(rotate(180deg));
+            }
+            .up {
+              transform: rotate(360deg) !important;
+              -webkit-transform: rotate(360deg) !important;
+            }
+            .down {
+              @include transform(rotate(180deg));
+            }
+          }
+        }
+        #profile-main>a {
+          @include flexbox();
+          flex-direction: column;
+            >li{
+                width:3.56rem;
+              //   height:1.52rem;
+              //   background:red;
+                margin-top: .1rem;
+                @include flexbox();
+                flex-wrap: wrap;
+                display: block;
+                float: left;
+                align-content: flex-start;
+                >img{
+                    width:.89rem;
+                    height:.89rem;
+                    display:block;
+                    float: left;
+                }
+                >h3{
+                    width:2.54rem;
+                    height:.28rem;
+                    display: block;
+                    color:#1a1a1a;
+                    float: left;
+                    font-size: .2rem;
+                    margin-top: .3rem;
+                }
+                >b{
+                  width:.89rem;
+                  height:.28rem;
+                  display:block;
+                  float: left;
+                  font-size: .12rem;
+                  color:#999;
+                  margin-top: .1rem;
+                }
+            }
+        }
+        #search-main>a {
+          @include flexbox();
+          flex-direction: column;
+            >span{
+                width:100%;
+                height:.17rem;
+                line-height: .17rem;
+                text-align: center;
+            }
+            >li{
+                width:3.56rem;
+              //   height:1.52rem;
+              //   background:red;
+                margin-top: .1rem;
+                @include flexbox();
+                flex-wrap: wrap;
+                display: block;
+                float: left;
+                align-content: flex-start;
+                >img{
+                    width:.89rem;
+                    height:.89rem;
+                    display:block;
+                    float: left;
+                }
+                >h3{
+                    width:2.54rem;
+                    height:.28rem;
+                    display: block;
+                    color:#1a1a1a;
+                    float: left;
+                    font-size: .2rem;
+                    margin-top: .3rem;
+                }
+                >b{
+                  width:.89rem;
+                  height:.28rem;
+                  display:block;
+                  float: left;
+                  font-size: .12rem;
+                  color:#999;
+                  margin-top: .1rem;
+                }
+            }
+        }
+      
+      
+       }
+  }
+}
+}

@@ -1,0 +1,56 @@
+Arguments: 
+  D:\nodejs\node.exe C:\Users\Administrator\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js add swiper
+
+PATH: 
+  D:\Git\mingw64\bin;D:\Git\usr\bin;C:\Users\Administrator\bin;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0;C:\Program Files (x86)\ATI Technologies\ATI.ACE\Core-Static;C:\Program Files\Microsoft\Web Platform Installer;C:\Program Files (x86)\Microsoft ASP.NET\ASP.NET Web Pages\v1.0;C:\Program Files\Microsoft SQL Server\110\Tools\Binn;C:\Program Files (x86)\Windows Kits\8.0\Windows Performance Toolkit;C:\Program Files\Java\jdk1.8.0_92\bin;D:\mysql-5.6.17-winx64\bin;F:\hexo\node_modules\.bin;D:\bin;C:\Program Files (x86)\VisualSVN Server\bin;D:\Git\cmd;D:\nvm;D:\nodejs;C:\Users\Administrator\AppData\Roaming\npm;D:\nvm;D:\nodejs
+
+Yarn version: 
+  1.10.1
+
+Node version: 
+  8.12.0
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: ENOENT: no such file or directory, copyfile 'C:\Users\Administrator\AppData\Local\Yarn\Cache\v2\npm-ms-2.1.1-30a5864eb3ebb0a66f2ebe6d727af06a09d86e0a\index.js' -> 'C:\Users\Administrator\Desktop\新建文件夹 (2)\m-test\node_modules\@babel\core\node_modules\ms\index.js'
+
+npm manifest: 
+  {
+    "name": "m-website",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT",
+    "devDependencies": {
+      "@babel/core": "^7.1.2",
+      "@babel/plugin-transform-runtime": "^7.1.0",
+      "@babel/polyfill": "^7.0.0",
+      "@babel/preset-env": "^7.1.0",
+      "@babel/preset-stage-3": "^7.0.0",
+      "babel-loader": "^8.0.4",
+      "babel-preset-stage-0": "^6.24.1",
+      "gulp": "^3.9.1",
+      "gulp-sass": "^4.0.1",
+      "gulp-watch": "^5.0.1",
+      "gulp-webserver": "^0.9.1",
+      "http-proxy-middleware": "^0.19.0",
+      "json-server": "^0.14.0",
+      "node-sass": "^4.9.3",
+      "string-loader": "^0.0.1",
+      "webpack-stream": "^5.1.1"
+    },
+    "scripts": {
+      "dev": "gulp",
+      "mock": "json-server ./src/mock/mock.js -r ./src/mock/route.json"
+    },
+    "dependencies": {
+      "@babel/runtime": "^7.1.2"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile

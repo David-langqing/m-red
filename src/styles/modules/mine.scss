@@ -1,0 +1,353 @@
+@font-face {
+    font-family: 'yofont';
+    src: url('/iconfonts/iconfont.eot');
+    src: url('/iconfonts/iconfont.eot?#iefix') format('embedded-opentype'),
+    url('/iconfonts/iconfont.woff') format('woff'),
+    url('/iconfonts/iconfont.ttf') format('truetype'),
+    url('/iconfonts/iconfont.svg#iconfont') format('svg');
+  }
+.home-container {
+    main {
+        width: 100%;
+        background: #fff;
+        overflow: hidden;
+        
+        // overflow-y: auto;
+        >.mine{
+            .minehead{
+                background: #fff;
+                >.mineBack{
+                    display: block;
+                    width: 0.5rem;
+                    height: 0.5rem;
+                    background: red;
+                    position: absolute;
+                    top: 0.03rem;
+                    left: 0.05rem; 
+                    line-height: 0.5rem;
+                    text-align: center;
+                    font-size: 0.3rem;
+                    font-weight: normal;
+                    color: rgb(173, 167, 167);
+                    background: #fff;
+                }
+                .loginlogo{
+                    margin-top: 0.2rem;
+                    margin-bottom: 0.16rem;
+                    width: 100%;
+                    height: 0.86rem;
+                    background: #fff;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    img{
+                        display: block;
+                        width: 50%;
+                        height: 50%;
+                    }
+                }
+                .loginwrap{
+                    width: 100%;
+                    
+                    max-height: 1000px;
+                    padding-left: 0.35rem;
+                    padding-right: 0.35rem;
+                    ul{
+                        width: 100%;
+                        height: 0.36rem;
+                        li{
+                            width: 33.3%;
+                            float: left;
+                            text-align: center;
+                            line-height: 0.34rem;
+                            a{
+                                display: block;
+                                color: #bababa;
+                                border-bottom: 1px solid #e5e5e5;
+                                font-size: 14px;
+                            }
+                        }
+                        .active{
+                            color: #991010;
+                            border-bottom: 2px solid #991010;
+                            font-size: 14px;
+                            font-weight: bold;
+                        }
+                        
+                    }
+                }
+                .form{
+                    display: none;
+                }
+                .form1{
+                    display: block;
+                    margin-top: 0.16rem;
+                    margin-bottom: 0.16rem;
+                    width: 100%;
+                    padding-left: 0.35rem;
+                    padding-right: 0.35rem;
+                    .loginbox{
+                        border: 1px solid #e6e6e6;
+                        border-radius: 3px;
+
+                        .userinput,.passinput{
+                            width: 100%;
+                            border-bottom: 1px solid #e5e5e5;
+                            position: relative;
+                            display: table;
+                            border-collapse: separate;
+                            
+                        }
+                        i{
+                            width: 17%;
+                            float: left;
+                            display: inline-block;
+                            width: 0.48rem;
+                            height: 0.39rem;
+                            font-size: 0.22rem;
+                            line-height: 0.39rem;
+                            text-align: center;
+                        }
+                        input{
+                            width: 83%;
+                            padding: 0.1rem;
+                            float: left;
+                            height: 0.39rem;
+                            border: none;
+                            display: inline-block;
+                            line-height: 0.3rem;
+                            
+                            font-size: 0.16rem;
+                            font-size: 0.18rem;
+                            color: #555;
+                            vertical-align: middle;
+                            background-color: #fff;
+                            background-image: none;
+                            border-radius: 0;
+                            transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+                        }
+                    }
+                    button{
+                        color: #fff;
+                        display: block;
+                        width: 100%;
+                        padding-left: 0;
+                        padding-right: 0;
+                        border-radius: 6px;
+                        background: #991010;
+                        
+                        margin-top: 0.16rem;
+                        margin-bottom: 0;
+                        padding: .625em 1em;
+                        vertical-align: middle;
+                        
+                        border: 1px solid #991010;
+                    }
+                    .forgetPwd{
+                        width: 1.7rem;
+                        margin: 0 auto;
+                        overflow: hidden;
+                        font-size: 0.14rem;
+                        padding-top: 0.1rem;
+                        margin-top: 0.2rem;
+                        >div{
+                            line-height: 0.16rem;
+                            float: left;
+                        }
+                        .userreg{
+                            
+                            width: 85px;
+                            text-align: center;
+                            padding-right: 25px;
+                            margin-right: 25px;
+                            border-right: 1px solid #c4c4c4;
+                        }
+                        a{
+                            color: #bababa;
+                        }
+                    }
+                    
+                }
+                .form2{
+                    margin-top: 0.16rem;
+                    margin-bottom: 0.16rem;
+                    width: 100%;
+                    padding-left: 0.35rem;
+                    padding-right: 0.35rem;
+                    .loginbox{
+                        border: 1px solid #e6e6e6;
+                        border-radius: 3px;
+
+                        >div{
+                            width: 100%;
+                            border-bottom: 1px solid #e5e5e5;
+                            position: relative;
+                            display: table;
+                            border-collapse: separate;
+                            
+                        }
+                        i{
+                            width: 17%;
+                            float: left;
+                            display: inline-block;
+                            width: 0.48rem;
+                            height: 0.39rem;
+                            font-size: 0.22rem;
+                            line-height: 0.39rem;
+                            text-align: center;
+                        }
+                        input{
+                            width: 83%;
+                            padding: 0.1rem;
+                            float: left;
+                            height: 0.39rem;
+                            border: none;
+                            display: inline-block;
+                            line-height: 0.3rem;
+                            
+                            font-size: 0.16rem;
+                            font-size: 0.18rem;
+                            color: #555;
+                            vertical-align: middle;
+                            background-color: #fff;
+                            background-image: none;
+                            border-radius: 0;
+                            transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+                        }
+                    }
+                    button{
+                        color: #fff;
+                        display: block;
+                        width: 100%;
+                        padding-left: 0;
+                        padding-right: 0;
+                        border-radius: 6px;
+                        background: #991010;
+                        
+                        margin-top: 0.16rem;
+                        margin-bottom: 0;
+                        padding: .625em 1em;
+                        vertical-align: middle;
+                        
+                        border: 1px solid #991010;
+                    }
+                    .forgetPwd{
+                        width: 1.7rem;
+                        margin: 0 auto;
+                        overflow: hidden;
+                        font-size: 0.14rem;
+                        padding-top: 0.1rem;
+                        margin-top: 0.2rem;
+                        >div{
+                            line-height: 0.16rem;
+                            float: left;
+                        }
+                        .userreg{
+                            
+                            width: 85px;
+                            text-align: center;
+                            padding-right: 25px;
+                            margin-right: 25px;
+                            border-right: 1px solid #c4c4c4;
+                        }
+                        a{
+                            color: #bababa;
+                        }
+                    }
+                    
+                }
+                .form3{
+                    
+                    margin-top: 50px;
+                    text-align: center;
+                    box-sizing: border-box;
+                    margin-left: auto;
+                    margin-right: auto;
+                    padding-left: 35px;
+                    padding-right: 35px;
+                    width: 100%;
+                    max-width: 1000px;
+                    img{
+                        margin: 0 auto;
+                        display: block;
+                        width: 1.15rem;
+                       }
+                }
+                .loginother{
+                    box-sizing: border-box;
+                    margin-left: auto;
+                    margin-right: auto;
+                    padding-left: 35px;
+                    padding-right: 35px;
+                    width: 100%;
+                    max-width: 1000px;
+                    .linebox{
+                        width: 70%;
+                        margin: 0 auto;
+                        margin-top: 0.5rem;
+                        border-top: 1px solid #e5e5e5;
+                        text-align: center!important;
+                        position: relative;
+                        span{
+                            position: absolute;
+                            top: -15px;
+                            left: 50%;
+                            width: 50px;
+                            height: 30px;
+                            margin-left: -25px;
+                            line-height: 30px;
+                            color: #bababa;
+                            text-align: center;
+                            background: #fff;
+                            font-size: 14px;
+                        }
+                    }
+                    .collapse{
+                        margin: 0 auto;
+                        width: 100%;
+                        >div{
+                            padding-left: 0;
+                            padding-right: 0;
+                            width: 33.3%;
+                            float: left;
+                            position: relative;
+                            .bg1{
+                                background: url(../../images/qq.png) no-repeat 50% 50%;
+                                text-indent: -9999px;
+                                width: 100%;
+                                height: 94px;
+                                display: inline-block;
+                                background-size: 40px;
+
+                            }
+                            .bg2{
+                                background: url(../../images/lang.png) no-repeat 50% 50%;
+                                text-indent: -9999px;
+                                width: 100%;
+                                height: 94px;
+                                display: inline-block;
+                                background-size: 40px;
+                            }
+                            .bg3{
+                                background: url(../../images/bao.png) no-repeat 50% 50%;
+                                text-indent: -9999px;
+                                width: 100%;
+                                height: 94px;
+                                display: inline-block;
+                                background-size: 40px;
+                            }
+                        }
+                    }
+                }
+
+
+
+
+
+            }
+           
+            
+        }
+    }
+
+}

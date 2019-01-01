@@ -1,0 +1,117 @@
+.home-container{
+    main{
+        width: 100%;
+        background: #fff;
+        overflow: hidden;
+        // height: 100%;
+    #publish{
+        
+        >span{
+          width:3.75rem;
+          height:.4rem;
+          background:#991010;
+          display:block;
+          line-height: .4rem;
+          text-align: center;
+          color: #fff;
+          
+        }
+        >b{
+          width:3.75rem;
+          height:.36rem;
+          display:block;
+          color: #ec6711;
+          font-size: .12rem;
+          margin-top: .1rem;
+          margin-right: .1rem;
+        }
+        >h{
+          height:.4rem;
+          display:block;
+          line-height: .4rem;
+          text-align: center;
+          font-size: .12rem;
+          >span{
+            width:.94rem;
+            height:.3rem;
+            line-height: .3rem;
+            text-align: center;
+            background: #991010;
+            color: #fff;
+            display:block;
+            float:right;
+            border-radius: .08rem;
+            margin-right: .2rem;
+          }
+       
+        }  
+        >div{
+            height:.54rem;
+            margin-top: .05rem;
+            height: .54rem;
+            display: block;
+            
+            >select{
+              width:100%;
+              height:.44rem;
+              line-height: .44rem;
+              display: block;
+            }
+          }
+          >textarea{
+            width:3.31rem;
+            height:.6rem;
+            display: block;
+          }
+          >input{
+            width:1.97rem;
+            height:0.37rem;
+            display: block;
+          }
+          >button{
+            width:3.51rem;
+            height:.4rem;
+            display: block;
+            line-height: .4rem;
+            text-align: center;
+            background:  #ddd;
+            color: #ccc;
+          }
+      
+      
+      #msg{
+        display: block;
+        width:3.51rem;
+        height:.78rem;
+       >div{
+         width:1.49rem;
+         height:.4rem;
+         display: block;
+         float: left;
+         >select{
+          width:100%;
+          height:.44rem;
+          line-height: .44rem;
+          display: block;
+        }
+       }
+       >#input2{
+        width:1.65rem;
+        height:.4rem;
+        display: block;
+        float: left;
+        margin-left: .3rem;
+       }
+       >span{
+         width:3.31rem;
+         height:.24rem;
+         display: block;
+         font-size: .12rem;
+         color:#999;
+         line-height: .24rem;
+         text-align: center;
+      
+       }
+      }
+    }}
+}
